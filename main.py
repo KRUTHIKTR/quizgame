@@ -48,6 +48,7 @@ def select(event):
                     optionButton4.config(text=option_4[0])
 
                     amountLabel.config(image=amountimage)
+                    amountLabel.config(image=amountimage15)
 
                 mixer.music.stop()
                 mixer.music.load('Kbcwon.mp3')
