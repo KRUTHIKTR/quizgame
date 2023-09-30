@@ -80,11 +80,11 @@ def select(event):
             questionArea.delete(1.0, END)
             questionArea.insert(END, questions[i + 1])
 
-            optionButton1.config(text=option_1[i + 1])
-            optionButton2.config(text=option_2[i + 1])
-            optionButton3.config(text=option_3[i + 1])
-            optionButton4.config(text=option_4[i + 1])
-            amountLabel.config(image=amountimages[i])
+            optionButton1.config(text=option_1[i + 1],activebackground='green')
+            optionButton2.config(text=option_2[i + 1],activebackground='green')
+            optionButton3.config(text=option_3[i + 1],activebackground='green')
+            optionButton4.config(text=option_4[i + 1],activebackground='green')
+            amountLabel.config(image=amountimages[i],activebackground='green')
 
         if value not in correct_answers:
             def close():
